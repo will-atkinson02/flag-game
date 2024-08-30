@@ -1,0 +1,35 @@
+:root {
+    --background-colour-main: #EEEEEE;
+    --header-colour-main: #537188;
+    --text-colour-main: #E1D4BB;
+    --text-colour-secondary: #E1D4BB;
+
+}
+
+body {
+    /* Colour */
+    background-color: var(--background-colour-main);
+}
+
+.centred-div {
+    /* Display */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.start-button {
+    /* Display */
+    height: 60px;
+    width: 150px;
+    border-radius: 9999px;
+
+    /* Colour */
+    background-color: var(--header-colour-main);
+
+    /* Text */
+    font-size: large;
+    font-weight: 600;
+}
+
